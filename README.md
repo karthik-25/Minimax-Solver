@@ -15,15 +15,23 @@ the user input via CLI
 Please run minimax.py as follows:
 python minimax.py [-v] [-ab] max/min n input.txt
 
+
 -v: toggle verbose, optional arugment
+
 -ab: toggle alpha beta pruning, optional arugment
+
 max/min: assigns root player to be max or min. Enter either max or min. Required argument.
+
 n: max-cutoff value. Enter any positive integer. Required argument.
+
 input.txt: input file. Must be a text file with ".txt" extension. Required argument.
 
-Sample commands:
+**Sample commands:**
+
 python3 minimax.py -v -ab max 15 input.txt
+
 python3 minimax.py -v min 15 input.txt
+
 python3 minimax.py max 15 input.txt
 
 Notes:
