@@ -1,4 +1,7 @@
-SCRIPTS
+# Minimax
+Implementation of minimax algorithm (2 players with alternate moves)
+
+# Scripts
 1. tree.py contains the code for Tree and TreeNode classes. The logic for building a tree,
 validating it and running the minimax algorithm can be found here.
 
@@ -8,7 +11,7 @@ the user input via CLI
 3. minimax.py contains the main function and it is the script to run via CLI.
 
 
-RUN SCRIPTS
+# Run Scripts
 Please run minimax.py as follows:
 python minimax.py [-v] [-ab] max/min n input.txt
 
@@ -31,7 +34,7 @@ Notes:
   print the error accordingly. 
 
 
-REFERENCES
+# References
 - Textbook
 - https://www.geeksforgeeks.org/python-output-formatting/
 - https://www.geeksforgeeks.org/minimax-algorithm-in-game-theory-set-4-alpha-beta-pruning/
